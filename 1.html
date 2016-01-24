@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+     <title>www.bootstrap.boutique</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="libs/fuelux/fuelux.min.js"></script>
+    <script src="libs/fuelux/js/wizard.js"></script>
+    
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libs/fuelux/fuelux.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="1.css">
+  </head>
+
+  <body>
+    <small>Get more @<a href="http://bootstrap.boutique"> Bootstrap Boutique</a></small>
+
+    <div class="container" style="margin-top: 20px;">
+      <div class="row fuelux">
+        <div class="col-md-10">
+
+
+          <div id="wizardIllustration" data-initialize="wizard" class="wizard fuelux">
+            <div class="steps-container">
+              <ul class="steps" style="margin-left: 0">
+                <li class="active" data-name="campaign" data-step="1">
+                  <span class="badge badge-info">1</span>Campaign
+                  <span class="chevron"></span>
+                </li>
+                <li data-step="2">
+                  <span class="badge">2</span>Recipients
+                  <span class="chevron"></span>
+                </li>
+                <li data-name="template" data-step="3">
+                  <span class="badge">3</span>Template
+                  <span class="chevron"></span>
+                </li>
+              </ul>
+            </div>
+            <div class="actions">
+              <button class="btn btn-default btn-prev" type="button" disabled="disabled">
+                <span class="glyphicon glyphicon-arrow-left"></span>Prev</button>
+              <button data-last="Complete" class="btn btn-primary btn-next" type="button">Next<span class="glyphicon glyphicon-arrow-right"></span></button>
+            </div>
+            <div class="step-content">
+              <div data-step="1" class="step-pane sample-pane alert active">
+                <h4>Setup Campaign</h4>
+                <p>Veggies es bonus vobis, proinde vos postulo essum magis kohlrabi welsh onion daikon amaranth tatsoi tomatillo melon azuki bean garlic. Beetroot water spinach okra water chestnut ricebean pea catsear courgette.</p>
+              </div>
+              <div data-step="2" class="step-pane sample-pane bg-info alert">
+                <h4>Choose Recipients</h4>
+                <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard. </p>
+              </div>
+              <div data-step="3" class="step-pane sample-pane bg-danger alert">
+                <h4>Design Template</h4>
+                <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. Sea lettuce lettuce water chestnut eggplant winter purslane fennel azuki bean earthnut pea sierra leone bologi leek soko chicory celtuce parsley jÃ­cama salsify. </p>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <script src="1.js"></script>
+
+
+
+
+  </body>
+</html>
